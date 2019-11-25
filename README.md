@@ -16,3 +16,26 @@ Change Date: 2020-01-01 (MaxScale 2.2), 2021-09-01 (MaxScale 2.4.2). For MaxScal
 
 Before that in BSL 1.1 and 1.0 (from MaxScale 2.0 on), may be used without License Coss
 with LESS than 3 Servers 
+
+
+## 2. Performance Galera Cluster  
+
+### 2a. RTT determines tps 
+
+Good article on performance MaxScale 
+
+https://severalnines.com/database-blog/improve-performance-galera-cluster-mysql-or-mariadb
+
+as is:
+tps restricted by RTT (Round Trip Time)
+
+Quote ():
+"[In a Galera cluster] a given row can’t be modified more than once per RTT"
+
+Hence, transactions per second can be estimated by dividing RTT (in second) into 1 second:
+
+Minimum tps: 1 / 0.00134 (max RTT) = 746.26 ~ 746 tps
+Average tps: 1 / 0.000431 (avg RTT) = 2320.19 ~ 2320 tps
+Maximum tps: 1 / 0.000111 (min RTT) = 9009.01 ~ 9009 tps
+
+Slowest node tears performance down. 
