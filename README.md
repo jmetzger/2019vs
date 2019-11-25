@@ -18,9 +18,14 @@ Before that in BSL 1.1 and 1.0 (from MaxScale 2.0 on), may be used without Licen
 with LESS than 3 Servers 
 ```
 
-## 2. Performance Galera Cluster  
+## 2. Comparison Feature ProxySQL and MaxScale 
 
-### 2a. RTT determines tps 
+https://mariadb.com/wp-content/uploads/2019/10/mariadb-maxscale-proxysql-comparison_datasheet_1043.pdf
+
+
+## 3. Performance Galera Cluster  
+
+### 3a. RTT determines tps 
 
 Good article on performance MaxScale 
 
