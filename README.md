@@ -67,3 +67,6 @@ https://mariadb.com/kb/en/library/manual-sst-of-galera-cluster-node-with-mariaba
 https://galeracluster.com/2015/07/geo-distributed-database-clusters-with-galera/
 https://www.dropbox.com/s/cbxmr6pu0mwt830/Screenshot%202019-11-26%2010.53.26.png?dl=0
 https://de.slideshare.net/SakariKeskitalo/using-galera-replication-to-create-geo-distributed-clusters-on-the-wan-62923322
+
+## 8. Documentation for MaxScale 
+https://maxscale.readthedocs.io/en/latest/
