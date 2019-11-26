@@ -70,6 +70,7 @@ https://de.slideshare.net/SakariKeskitalo/using-galera-replication-to-create-geo
 
 ## 8. Documentation for MaxScale 
 https://maxscale.readthedocs.io/en/latest/
+https://mariadb.com/kb/en/mariadb-maxscale-21-maxadmin-admin-interface/
 
 ## 9. Network Ports Galera
 
