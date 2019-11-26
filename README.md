@@ -44,3 +44,12 @@ Average tps: 1 / 0.000431 (avg RTT) = 2320.19 ~ 2320 tps
 Maximum tps: 1 / 0.000111 (min RTT) = 9009.01 ~ 9009 tps
 
 Slowest node tears performance down. 
+
+## 4. MySQL Performance Guide
+
+http://schulung.t3isp.de/documents/pdfs/mysql/mysql-performance.pdf
+
+## 5. Manual SST with mariabackup (galera) 
+
+https://mariadb.com/kb/en/library/manual-sst-of-galera-cluster-node-with-mariabackup/
+
