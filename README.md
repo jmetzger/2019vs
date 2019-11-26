@@ -45,6 +45,10 @@ Maximum tps: 1 / 0.000111 (min RTT) = 9009.01 ~ 9009 tps
 
 Slowest node tears performance down. 
 
+## 3b. Performance metrics galera cluster 
+
+https://severalnines.com/database-blog/monitoring-galera-cluster-mysql-or-mariadb-understanding-metrics-updated
+
 ## 4. Start after total crash of cluster 
 cat grastate.dat 
 # GALERA saved state
