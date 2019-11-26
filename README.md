@@ -70,3 +70,16 @@ https://de.slideshare.net/SakariKeskitalo/using-galera-replication-to-create-geo
 
 ## 8. Documentation for MaxScale 
 https://maxscale.readthedocs.io/en/latest/
+
+## 9. Network Ports Galera
+
+```
+Network Ports
+Galera Cluster needs access to the following ports:
+
+Standard MariaDB Port (default: 3306) - For MySQL client connections and State Snapshot Transfers that use the mysqldump method. This can be changed by setting port.
+Galera Replication Port (default: 4567) - For Galera Cluster replication traffic, multicast replication uses both UDP transport and TCP on this port. Can be changed by setting wsrep_node_address.
+IST Port (default: 4568) - For Incremental State Transfers. Can be changed by setting ist.recv_addr in wsrep_provider_options.
+SST Port (default: 4444) - For all State Snapshot Transfer methods other than mysqldump. Can be changed by setting wsrep_sst_receive_address.
+```
+https://mariadb.com/kb/en/library/configuring-mariadb-galera-cluster/
