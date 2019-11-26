@@ -45,11 +45,25 @@ Maximum tps: 1 / 0.000111 (min RTT) = 9009.01 ~ 9009 tps
 
 Slowest node tears performance down. 
 
-## 4. MySQL Performance Guide
+## 4. Start after total crash of cluster 
+cat grastate.dat 
+# GALERA saved state
+version: 2.1
+uuid:    930fb23a-0f7f-11ea-ab82-23d67453fbbc
+seqno:   -1
+safe_to_bootstrap: 0
+root@mu111:/var/lib/mysql# 
+
+## 5. MySQL Performance Guide
 
 http://schulung.t3isp.de/documents/pdfs/mysql/mysql-performance.pdf
 
-## 5. Manual SST with mariabackup (galera) 
+## 6. Manual SST with mariabackup (galera) 
 
 https://mariadb.com/kb/en/library/manual-sst-of-galera-cluster-node-with-mariabackup/
 
+## 7. Geo-Distributed Galera Cluster
+
+https://galeracluster.com/2015/07/geo-distributed-database-clusters-with-galera/
+https://www.dropbox.com/s/cbxmr6pu0mwt830/Screenshot%202019-11-26%2010.53.26.png?dl=0
+https://de.slideshare.net/SakariKeskitalo/using-galera-replication-to-create-geo-distributed-clusters-on-the-wan-62923322
