@@ -88,3 +88,7 @@ IST Port (default: 4568) - For Incremental State Transfers. Can be changed by se
 SST Port (default: 4444) - For all State Snapshot Transfer methods other than mysqldump. Can be changed by setting wsrep_sst_receive_address.
 ```
 https://mariadb.com/kb/en/library/configuring-mariadb-galera-cluster/
+
+## 10. Set unix_socket (without password authentication) 
+
+GRANT ALL  ON *.* TO root@localhost IDENTIFIED VIA unix_socket;
